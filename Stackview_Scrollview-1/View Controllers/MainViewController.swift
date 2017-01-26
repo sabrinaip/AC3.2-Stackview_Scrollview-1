@@ -10,6 +10,11 @@ import UIKit
 
 class MainViewController: UIViewController {
   
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var blueView: UIView!
+    @IBOutlet weak var orangeView: UIView!
+    @IBOutlet weak var redView: UIView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +24,17 @@ class MainViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        print("Content Size: \(self.scrollView.contentSize)")
+        print("ScrollView Bounds: \(self.scrollView.bounds)")
+        print("ScrollView Frame: \(self.scrollView.frame)")
+        
+        print("View Frame: \(self.view.frame)")
+        print("View Bounds: \(self.view.bounds)")
     }
 
     /*
