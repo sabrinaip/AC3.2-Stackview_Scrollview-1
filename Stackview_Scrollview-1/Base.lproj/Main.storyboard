@@ -277,7 +277,7 @@
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Weedle" translatesAutoresizingMaskIntoConstraints="NO" id="2jr-hG-2yS">
                                                                 <rect key="frame" x="387" y="0.0" width="129" height="129"/>
-                                                                <color key="backgroundColor" red="0.95294117649999999" green="0.38431372549999998" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <color key="backgroundColor" red="0.83137254901960789" green="0.71764705882352942" blue="0.46666666666666667" alpha="1" colorSpace="calibratedRGB"/>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Zubat" translatesAutoresizingMaskIntoConstraints="NO" id="xd8-lJ-c4a">
                                                                 <rect key="frame" x="516" y="0.0" width="129" height="129"/>
