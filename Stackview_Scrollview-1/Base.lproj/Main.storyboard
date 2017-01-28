@@ -335,6 +335,20 @@
                                         </constraints>
                                     </scrollView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="bGE-tK-C7E" firstAttribute="leading" secondItem="Dkh-qN-HAs" secondAttribute="leading" id="44Z-HC-vcP"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZUn-kL-giY" secondAttribute="bottom" id="7b4-DT-nsB"/>
+                                    <constraint firstAttribute="trailing" secondItem="bGE-tK-C7E" secondAttribute="trailing" id="DNZ-mp-e9b"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZUn-kL-giY" secondAttribute="trailing" id="EcH-Mj-YtW"/>
+                                    <constraint firstItem="gbE-PN-Voo" firstAttribute="top" secondItem="wf2-i8-xsR" secondAttribute="bottom" id="H6x-fQ-9Ld"/>
+                                    <constraint firstItem="ZUn-kL-giY" firstAttribute="leading" secondItem="Dkh-qN-HAs" secondAttribute="leading" id="JIN-d0-70N"/>
+                                    <constraint firstItem="wf2-i8-xsR" firstAttribute="top" secondItem="bGE-tK-C7E" secondAttribute="bottom" id="LK7-nM-AAr"/>
+                                    <constraint firstItem="ZUn-kL-giY" firstAttribute="top" secondItem="Oel-9t-yMs" secondAttribute="bottom" id="Nrr-Pq-70M"/>
+                                    <constraint firstItem="gbE-PN-Voo" firstAttribute="leading" secondItem="Dkh-qN-HAs" secondAttribute="leading" id="Qwa-Me-DhC"/>
+                                    <constraint firstItem="Oel-9t-yMs" firstAttribute="top" secondItem="gbE-PN-Voo" secondAttribute="bottom" id="bAm-xl-usg"/>
+                                    <constraint firstAttribute="trailing" secondItem="gbE-PN-Voo" secondAttribute="trailing" id="dvC-GA-cb7"/>
+                                    <constraint firstItem="bGE-tK-C7E" firstAttribute="top" secondItem="7pF-Ch-7Au" secondAttribute="bottom" id="jc9-ev-HX7"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
